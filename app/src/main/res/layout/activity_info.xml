@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".infoActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"
+        android:text="Hello"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/title_info"
+        android:layout_margin="10dp"/>
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="440dp"
+           android:src="@drawable/info1"
+           android:layout_below="@+id/title_info"
+           android:layout_centerHorizontal="true"
+           android:id="@+id/img_info"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="설명이 들어올 자리"
+        android:layout_below="@+id/img_info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="10dp"
+        android:id="@+id/txt_info"/>
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/txt_info"
+       android:id="@+id/btn_info_back"
+       android:layout_alignParentRight="true"
+       android:text="뒤로"/>
+</RelativeLayout>

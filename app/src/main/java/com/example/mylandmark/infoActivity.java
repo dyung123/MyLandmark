@@ -12,6 +12,7 @@ public class infoActivity extends AppCompatActivity {
     TextView txt_info;
     int imgno = 0;
     int imgs[] = {R.drawable.info1 , R.drawable.info2 , R.drawable.info3 , R.drawable.info4 , R.drawable.info5};
+    String txts[] = {"1번 설명","2번 설명","3번설명","4번설명","5번설명"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
